@@ -106,3 +106,18 @@ body{
   }
 }
 
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.TwoColumn {
+  float: left;
+  width: 49%;
+  padding: 5px;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .TwoColumn {
+    width: 100%;
+  }
+}
+

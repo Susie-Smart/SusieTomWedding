@@ -33,9 +33,41 @@
 <div id='nav'></div>
     
 <div style="margin-top: 60px;">
+
+    <div class="row">
+      <div class="TwoColumn">
+        <p>The evening doo is in Anstruther so if you book accomadation here or in neighbouring Cellardyke you should be able to walk/roll home
+
+        We will provide a bus at the end of the evening that can drop you off in the following villages (or anywhere in between):Pittenweem, Anstruther, Cellardyke, Crail, Kingsbarns, St Andrews</p>
+      </div>
+      <div class="TwoColumn">
+        <div id="map2" style="height:200px"></div>
+      </div>
+    </div>
     
     
     
 </div>
     
 </body>
+    
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqM3uKBX_FO9h5zhNHA7WBLSCsfcZJmac&callback=initMap"></script>
+<script>
+    
+    function initMap() {
+        // The location of Uluru
+        var uluru = {lat: 56.2990, lng: -2.6607};
+
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map2'), {zoom: 9, center: uluru});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: {lat: 56.226425, lng: -2.688892}, map: map});
+        new google.maps.Marker({position: {lat: 56.2140, lng: -2.7323}, map: map});
+        new google.maps.Marker({position: {lat: 56.2230, lng: -2.7005}, map: map});
+        new google.maps.Marker({position: {lat: 56.2606, lng: -2.6276}, map: map});
+        new google.maps.Marker({position: {lat: 56.2990, lng: -2.6607}, map: map});
+        new google.maps.Marker({position: {lat: 56.3398, lng: -2.7967}, map: map});
+  };
+    
+</script>
