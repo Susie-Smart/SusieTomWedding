@@ -94,6 +94,10 @@ body{
   padding: 5px;
 }
 
+.story p{
+    line-height: 500px;
+}
+
 /* Clear floats after image containers */
 .row::after {
   content: "";
@@ -106,6 +110,9 @@ body{
   .column {
     width: 100%;
   }
+    .story p{
+        line-height: 30px;
+    }
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
