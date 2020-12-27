@@ -10,6 +10,7 @@ body{
   position: fixed;
   top:0;
   width:100%;
+  z-index: 9;
 }
 
 /* Style the links inside the navigation bar */
