@@ -37,19 +37,19 @@
     
 <div id='nav'></div>
     
-<div style="margin-top: 55px;">
+<div style="margin-top: 30px; ">
     
-    <h1> On the Day </h1>
+    <h1 style="margin-left: 5px; "> On the Day </h1>
     
     <div class="row">
-      <div class="TwoColumn">
+      <div class="TwoColumn" style="margin-left: 5px; margin-right: 5px">
         <h2>The Ceremony:</h2>
 
         <p>
-            If we are lucky with the weather the ceremony will be held at Cellardyke Harbour. If it's too chilly or rainy we will have the ceremony in Cellardyke Town Hall
+            If we are lucky with the weather the ceremony will be held at Cellardyke Harbour (1 Shore Street). If it's too chilly or rainy we will have the ceremony in Cellardyke Town Hall. ()
         </p>
         <p>
-            Time: 2:00pm
+            Time: 1:00pm
         </p>
 
         <h2>Important:</h2>
@@ -60,16 +60,19 @@
 
         <h2>The Evening Reception:</h2>
 
-        <p>Join us in Anstruther Town Hall for a bit of ceilidh dancing....don't worry we will have all the classic wedding hits too! </p>
+        <p>Join us in Anstruther Town Hall for a bit of ceilidh dancing....don't worry we will have all the classic wedding hits too! </p> 
+        <p>18 School Grn, Anstruther KY10 3DF</p>
 
         <p>Time: 7:30pm</p>
 
         <p> Last orders will be at midnight. We will provide a bus to drop off at the nearby villages at 1am. Please see the <a href='accom'>Where to Stay</a> page for details</p>
           
         <h2>Drinks:</h2>
-          <p>We will provide a free bar for the evening with a range of wine, beer, cider and spirits to cater for most tastes. If you would like anything more obscure please feel free to bring it along. There is no corkage or anything to worry about </p>
+          <p>We will provide a free bar for the evening with a range of wine, beer, cider and spirits to cater for most tastes. If you would like anything more obscure please feel free to bring it along. There is no corkage or anything to worry about. </p>
       </div>
       <div class="TwoColumn">
+          <br>
+          <br>
         <div id="map" style="height:500px;"></div>
       </div>
     </div>
@@ -103,6 +106,7 @@
             document.getElementById('map'), {zoom: 8, center: uluru});
         // The marker, positioned at Uluru
         var marker = new google.maps.Marker({position: uluru, map: map});
+        new google.maps.Marker({position: {lat: 56.225062 ,lng:-2.684411}, map: map});
   };
     
 </script>
