@@ -46,7 +46,7 @@
         <h2>The Ceremony:</h2>
 
         <p>
-            If we are lucky with the weather the ceremony will be held at Cellardyke Harbour (1 Shore Street). If it's too chilly or rainy we will have the ceremony in Cellardyke Town Hall. ()
+            If we are lucky with the weather the ceremony will be held at Cellardyke Harbour (1 Shore Street). If it's too chilly or rainy we will have the ceremony in Cellardyke Town Hall. (1 John Street)
         </p>
         <p>
             Time: 1:00pm
@@ -100,13 +100,15 @@
 <script>
     function initMap() {
         // The location of Uluru
-        var uluru = {lat: 56.226425, lng: -2.688892};
+        var uluru = {lat: 56.223020, lng: -2.689802};
         // The map, centered at Uluru
         var map = new google.maps.Map(
             document.getElementById('map'), {zoom: 8, center: uluru});
         // The marker, positioned at Uluru
         var marker = new google.maps.Marker({position: uluru, map: map});
         new google.maps.Marker({position: {lat: 56.225062 ,lng:-2.684411}, map: map});
+        new google.maps.Marker({position: {lat: 56.22373852520971 ,lng:-2.7004992111621005}, map: map});
+
   };
     
 </script>
